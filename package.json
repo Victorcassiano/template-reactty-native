@@ -1,4 +1,6 @@
 {
   "name": "react-native-template-reactty-native",
-  "version": "1.0.1"
+  "version": "1.0.2",
+  "repository": "git@github.com:copia-e-coda/react-native-typecript.git",
+  "author": "Victor Cassiano <jose_victor@live.com>"
 }

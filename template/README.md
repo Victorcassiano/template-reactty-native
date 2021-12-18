@@ -1,0 +1,3 @@
+- Mudar a versão
+- npm login
+- npm publish
