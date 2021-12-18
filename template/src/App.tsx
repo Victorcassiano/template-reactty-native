@@ -12,6 +12,6 @@ const App: React.FC = () => {
       <Routes />
     </NavigationContainer>
   );
-}
+};
 
 export default App;

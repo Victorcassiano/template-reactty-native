@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Home from '../Pages/Home'
+import Home from '../Pages/Home';
 
 const Route = createStackNavigator();
 
@@ -12,14 +12,13 @@ const Routes: React.FC = () => {
         animationEnabled: true,
         headerShown: false,
         cardStyle: {
-          backgroundColor: '#fff'
-        }
+          backgroundColor: '#fff',
+        },
       }}
-      initialRouteName="Home"
-    >
+      initialRouteName="Home">
       <Route.Screen name="Home" component={Home} />
-    </Route.Navigator >
+    </Route.Navigator>
   );
-}
+};
 
 export default Routes;
